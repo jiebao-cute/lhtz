@@ -13,6 +13,9 @@ module.exports = defineConfig({
         path.resolve(__dirname, './src/assets/note-sidebar.less')
       ]
     }
+  },
+  devServer: {
+    hot: true,
   }
 
 })
